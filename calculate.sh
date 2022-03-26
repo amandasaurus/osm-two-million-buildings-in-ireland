@@ -1,7 +1,7 @@
 #! /bin/bash
 set -o errexit
 echo "Creating tag CSV file..."
-osm-tag-csv-history -i ~/osm/data/ireland-and-northern-ireland-internal.osh.pbf -o iebuilding.csv.gz --tag building --object-types wr --columns iso_timestamp,tag_count_delta,changeset_id,object_type_long,raw_id
+osm-tag-csv-history -i ireland-and-northern-ireland-internal.osh.pbf -o iebuilding.csv.gz --tag building --object-types wr --columns iso_timestamp,tag_count_delta,changeset_id,object_type_long,raw_id
 
 echo "Setting up PostgreSQL table..."
 psql -c "DROP TABLE IF EXISTS iebuildings;"
