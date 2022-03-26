@@ -29,8 +29,8 @@ If you want to calculate this data yourself:
 
 * “Ireland” here refers to the island of Ireland
 * Only `way` & `relations` are analyzed, not `nodes`
-* Sometime OSM data is “redacted”, and removed from the history, so it's _techncially_ possible for someone to have added some others. The goal of this 
-	* In Sept 20XX OSM changed it's licence to the current ODbL. Some people didn't agree to this change (or were uncontactable)
+* Sometime OSM data is “redacted”, and removed from the history, so it's _techncially_ possible for someone to have added some others. The goal of this is for fun, nothing too serious.
+	* In Sept 2012 changed it's licence to the current ODbL. Some people didn't agree to this change (or were uncontactable)
 	* Copyright infringing edits are also redacted (because OSM doesn't have permission to distribute that data)
 * This code is copyright 2022 ©, released under teh Affero GNU GPL v3+.
 * This contains data [© OpenStreetMap](https://www.openstreetmap.org/copyright), released under the [ODbL licence](https://www.openstreetmap.org/copyright).
