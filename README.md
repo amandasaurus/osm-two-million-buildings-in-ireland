@@ -23,12 +23,13 @@ If you want to calculate this data yourself:
 * Download the latest [full OSM history file from Geofabrik for Ireland](https://osm-internal.download.geofabrik.de/europe/ireland-and-northern-ireland.html) ([`ireland-and-northern-ireland-internal.osh.pbf`](https://osm-internal.download.geofabrik.de/europe/ireland-and-northern-ireland-internal.osh.pbf) currently 381 MB).
 * Create a local PostgreSQL database.
 * Install the latest version of [`osm-tag-csv-history`](https://github.com/amandasaurus/osm-tag-csv-history) (technically ≥ v0.5).
-* Then run `./calculate.sh`. `results.csv` has the output.
+* Run `./calculate.sh`. `results.csv` has the output.
 
 ## The second 2,000,000th building
 
 Observant people might notice a strange way the 2,000,000th building was calculated. Because shortly after we hit 2,000,000, someone [removed](https://www.openstreetmap.org/changeset/117997219) a `building` tag from [something](https://www.openstreetmap.org/way/642701472), bringing us under two mill. Within a few hours, Boggedy had [continued mapping](https://www.openstreetmap.org/changeset/117997767) and added more buidlings, including [another](https://www.openstreetmap.org/way/1036402185) bringing our total above 2,000,000 again.
 
+The progress aobve & below 2,000,000 is visible in the `two-million-track.csv` which `calculate.sh` generates.
 
 ## Notes
 
@@ -37,7 +38,7 @@ Observant people might notice a strange way the 2,000,000th building was calcula
 * Sometime OSM data is “redacted”, and removed from the history, so it's _techncially_ possible for someone to have added some others. The goal of this is for fun, nothing too serious.
 	* In Sept 2012 changed it's licence to the current ODbL. Some people didn't agree to this change (or were uncontactable)
 	* Copyright infringing edits are also redacted (because OSM doesn't have permission to distribute that data)
-* This code is copyright 2022 ©, released under teh Affero GNU GPL v3+.
+* This code is copyright 2022 ©, released under the Affero GNU GPL v3+, cf. [LICENCE](./LICENCE).
 * This contains data [© OpenStreetMap](https://www.openstreetmap.org/copyright), released under the [ODbL licence](https://www.openstreetmap.org/copyright).
 
 ## See also
