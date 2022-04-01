@@ -44,4 +44,9 @@ The progress aobve & below 2,000,000 is visible in the `two-million-track.csv` w
 ## See also
 
 * This code is hosted on [Github: `amandasaurus/osm-two-million-buildings-in-ireland`](https://github.com/amandasaurus/osm-two-million-buildings-in-ireland)
+* I posted this on:
+  * [my OpenStreetMap Diary](https://www.openstreetmap.org/user/%E1%9A%9B%E1%9A%90%E1%9A%8B%E1%9A%90%E1%9A%85%E1%9A%87%E1%9A%90%E1%9A%9C%20%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88/diary/398897)
+  * [`en.osm.town` mastodon/fediverse server](https://en.osm.town/web/@amapanda/108038077128287734)
+  * [twitter](https://twitter.com/lalonde/status/1508671383693373440)
+  * [OSM Ireland Telegram](https://t.me/c/1423083417/12504)
 
